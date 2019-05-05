@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Kalam|Rock+Salt');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,400,500,700');
+
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #ffffff;
+}
+
+button:focus{
+  outline: none;
+}
+
+input:focus{
+  outline: none;
+}
+
+/* Navbar */
+#mainNavbar{
+  font-size: 1rem;
+  font-weight: 100;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  background-color: #A6F0FF;
+}
+
+#mainNavbar .navbar-brand{
+  color: white;
+  font-size: 2vw;
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+}
+
+#mainNavbar .nav-link{
+  color: #3A54B4;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 13px;
+}
+
+.nav-item{
+  padding-left: 1.5rem;
+}
+
+#whitebar{
+  color: white;
+}
+
+#rednavlink{
+  color: #FF8B7B !important;
+}
+
+#createnav{
+  background-color: #3A54B4;
+  color: white !important;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+#createnav:hover{
+  opacity: 0.7;
+}
+
+/* Section 1 */
+#sectionone{
+  background-color: #A6F0FF;
+  height: 100vh;
+}
+
+#sectionone img{
+  border-radius: 50%;
+  position: absolute;
+  top: 21%;
+  left: 51%;
+  width: 470px;
+  height: 470px;
+}
+
+
+#sectionone h1{
+  position: relative;
+  top: 28%;
+  left: 12%;
+  font-size: 140px;
+  font-weight: 700;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+}
+
+#sectionone h2{
+  position: relative;
+  top: 28%;
+  left: 12.43%;
+  font-size: 35px;
+  font-weight: 200;
+  font-family: 'Work Sans', sans-serif;
+  color: #3A54B4;
+}
+
+#sectionone button{
+  position: relative;
+  top: 32%;
+  left: 12.7%;
+  background-color: #3A54B4;
+  color: white !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: none;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  display: block;
+}
+
+#sectionone button:hover{
+  opacity: 0.7;
+}
+
+/* Section 2 */
+#sectiontwo{
+  height: 1000px;
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1150px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px){
+}
+
+@media (max-width: 600px) {
+}
+
+
+
+
+
+
+
