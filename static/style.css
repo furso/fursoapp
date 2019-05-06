@@ -42,6 +42,11 @@ input:focus{
   font-size: 13px;
 }
 
+#mainNavbar .nav-link:hover{
+  border-bottom: 2px solid white;
+  padding-bottom: 2px;
+}
+
 .nav-item{
   padding-left: 1.5rem;
 }
@@ -59,6 +64,8 @@ input:focus{
   color: white !important;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  border: none !important;
+  padding-bottom: 8px !important;
 }
 
 #createnav:hover{
@@ -124,7 +131,16 @@ input:focus{
 
 /* Section 2 */
 #sectiontwo{
-  height: 700px;
+  height: 580px;
+}
+
+#sectiontwo img{
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  top: 16%;
+  left: 17%;
 }
 
 /* Media Queries */

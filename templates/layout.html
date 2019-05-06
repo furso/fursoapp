@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400&amp;subset=chinese-traditional" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Courgette|Dancing+Script|Pacifico" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     {% if navbarchoice ==  "first" %}
@@ -66,7 +67,7 @@
                   </div>
                   <div class="footer-copyright mb-5 text-center">
                     <script type="text/javascript">
-                        var copyright = "© " + new Date().getFullYear() + " 基督城市教會. All rights reserved."
+                        var copyright = "© " + new Date().getFullYear() + " Furso. All rights reserved."
                         document.write(copyright);
                     </script>
                     </div>
@@ -77,6 +78,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   $(function() {
         $(document).scroll(function(){
@@ -84,7 +86,7 @@
             $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
         });
     });
-
+  AOS.init();
 </script>
 </body>
 </html>
