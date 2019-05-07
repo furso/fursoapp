@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:200,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300');
 
 body{
   margin: 0;
@@ -139,8 +140,52 @@ input:focus{
   width: 400px;
   height: 400px;
   position: relative;
-  top: 16%;
-  left: 17%;
+  top: 85px;
+  left: 19%;
+}
+
+#sectiontwo h2{
+  position: relative;
+  top: -50.5%;
+  left: 52%;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: 'Work Sans', sans-serif;
+  color: #3A54B4;
+  margin: 0;
+}
+
+#sectiontwo p{
+  width: 420px;
+  height: 300px;
+  font-size: 14px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  color: #3A54B4;
+  position: relative;
+  top: -46.5%;
+  left: 52%;
+}
+
+#sectiontwo button{
+  position: relative;
+  top: -67.5%;
+  left: 52%;
+  background-color: #3A54B4;
+  color: white !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: none;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  display: block;
+}
+
+#sectiontwo button:hover{
+  opacity: 0.7;
 }
 
 /* Media Queries */
